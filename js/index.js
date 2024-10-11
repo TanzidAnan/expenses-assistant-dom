@@ -10,8 +10,10 @@ document.getElementById('calculate').addEventListener('click', function () {
     const internetvalue =parseInt(internet)
     const totleEncome = softwarevalue+ coursesvalue +internetvalue
     if (expenseForm >= totleEncome) {
-        if(softwarevalue >=300){
-            console.log(totleEncome)
+        if(softwarevalue >=3000){
+            if(coursesvalue >=500){
+                console.log(coursesvalue)
+            }
         }
         
     }
