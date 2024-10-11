@@ -14,6 +14,7 @@ document.getElementById('calculate').addEventListener('click', function () {
             if(coursesvalue >=(10/100)){
                 console.log('Data') 
                 console.log('Data') 
+                console.log('Data') 
             }
         }
         
