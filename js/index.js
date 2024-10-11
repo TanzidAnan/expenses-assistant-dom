@@ -12,7 +12,8 @@ document.getElementById('calculate').addEventListener('click', function () {
     if (expenseForm >= totleEncome) {
         if(softwarevalue >  (20/100)){
             if(coursesvalue >=(10/100)){
-                console.log('Data')
+                console.log('Data') 
+                console.log('Data') 
             }
         }
         
