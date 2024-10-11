@@ -9,9 +9,8 @@ document.getElementById('calculate').addEventListener('click', function () {
     const softwarevalue =parseInt(software)
     const coursesvalue =parseInt(courses)
     const internetvalue =parseInt(internet)
-    if (expenseForm < totleElement) {
-        console.log(softwarevalue)
-        console.log(coursesvalue)
-        console.log(internetvalue)
+    const totleEncome = softwarevalue+ coursesvalue +internetvalue
+    if (expenseForm > totleEncome) {
+        console.log(totleEncome)
     }
 })
